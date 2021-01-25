@@ -1,9 +1,9 @@
 <?php
 
-namespace Grayloon\Magento\Api;
+namespace Mucan\Magento\Api;
 
 use Exception;
-use Grayloon\Magento\Magento;
+use Mucan\Magento\Magento;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Log;
 
@@ -12,7 +12,7 @@ abstract class AbstractApi
     /**
      * The Magento Client instance.
      *
-     * @var \Grayloon\Magento\Magento
+     * @var \Mucan\Magento\Magento
      */
     public $magento;
 

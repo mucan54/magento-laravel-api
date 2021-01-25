@@ -1,9 +1,9 @@
 <?php
 
-namespace Grayloon\Magento\Tests;
+namespace Mucan\Magento\Tests;
 
-use Grayloon\Magento\Api\CartTotals;
-use Grayloon\Magento\MagentoFacade;
+use Mucan\Magento\Api\CartTotals;
+use Mucan\Magento\MagentoFacade;
 use Illuminate\Support\Facades\Http;
 
 class CartTotalsTest extends TestCase

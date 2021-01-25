@@ -1,6 +1,6 @@
 <?php
 
-namespace Grayloon\Magento\Api;
+namespace Mucan\Magento\Api;
 
 class Sources extends AbstractApi
 {

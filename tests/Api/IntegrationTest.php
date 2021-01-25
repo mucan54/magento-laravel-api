@@ -1,9 +1,9 @@
 <?php
 
-namespace Grayloon\Magento\Tests;
+namespace Mucan\Magento\Tests;
 
-use Grayloon\Magento\Api\Integration;
-use Grayloon\Magento\MagentoFacade;
+use Mucan\Magento\Api\Integration;
+use Mucan\Magento\MagentoFacade;
 use Illuminate\Support\Facades\Http;
 
 class IntegrationTest extends TestCase

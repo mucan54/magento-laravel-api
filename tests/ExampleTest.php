@@ -1,8 +1,8 @@
 <?php
 
-namespace Grayloon\Magento\Tests;
+namespace Mucan\Magento\Tests;
 
-use Grayloon\Magento\MagentoServiceProvider;
+use Mucan\Magento\MagentoServiceProvider;
 use Orchestra\Testbench\TestCase;
 
 class ExampleTest extends TestCase

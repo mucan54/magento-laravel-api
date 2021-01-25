@@ -46,7 +46,7 @@ composer require grayloon/laravel-magento-api
 
 Publish the config options:
 ```bash
-php artisan vendor:publish --provider="Grayloon\Magento\MagentoServiceProvider" --tag="config"
+php artisan vendor:publish --provider="Mucan\Magento\MagentoServiceProvider" --tag="config"
 ```
 
 Configure your Magento 2 API endpoint and token in your `.env` file:
@@ -64,7 +64,7 @@ MAGENTO_API_VERSION="V1"
 
 Example:
 ```php
-use Grayloon\Magento\Magento;
+use Mucan\Magento\Magento;
 
 $magento = new Magento();
 $response = $magento->api('products')->all();

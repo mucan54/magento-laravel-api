@@ -1,6 +1,6 @@
 <?php
 
-namespace Grayloon\Magento;
+namespace Mucan\Magento;
 
 use Illuminate\Support\ServiceProvider;
 

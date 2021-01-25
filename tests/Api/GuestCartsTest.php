@@ -1,9 +1,9 @@
 <?php
 
-namespace Grayloon\Magento\Tests;
+namespace Mucan\Magento\Tests;
 
-use Grayloon\Magento\Api\GuestCarts;
-use Grayloon\Magento\MagentoFacade;
+use Mucan\Magento\Api\GuestCarts;
+use Mucan\Magento\MagentoFacade;
 use Illuminate\Support\Facades\Http;
 
 class GuestCartsTest extends TestCase

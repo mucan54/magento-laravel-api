@@ -1,9 +1,9 @@
 <?php
 
-namespace Grayloon\Magento\Tests;
+namespace Mucan\Magento\Tests;
 
-use Grayloon\Magento\Api\Products;
-use Grayloon\Magento\MagentoFacade;
+use Mucan\Magento\Api\Products;
+use Mucan\Magento\MagentoFacade;
 use Illuminate\Support\Facades\Http;
 
 class ProductTest extends TestCase

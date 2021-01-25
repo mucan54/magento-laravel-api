@@ -1,8 +1,8 @@
 <?php
 
-namespace Grayloon\Magento;
+namespace Mucan\Magento;
 
-use Grayloon\Magento\Api\Custom;
+use Mucan\Magento\Api\Custom;
 use Illuminate\Support\Str;
 use InvalidArgumentException;
 
@@ -71,12 +71,12 @@ class Magento
      * @param  string  $name
      *
      * @throws InvalidArgumentException
-     * @return \Grayloon\Magento\Api\AbstractApi
+     * @return \Mucan\Magento\Api\AbstractApi
      */
     public function api($name)
     {
         $className = $name;
-        $apiMethodExists = class_exists($className = "\Grayloon\Magento\Api\\".Str::ucfirst($className));
+        $apiMethodExists = class_exists($className = "\Mucan\Magento\Api\\".Str::ucfirst($className));
 
         if (! $apiMethodExists) {
             return new Custom($name, $this);

@@ -1,9 +1,9 @@
 <?php
 
-namespace Grayloon\Magento\Tests;
+namespace Mucan\Magento\Tests;
 
-use Grayloon\Magento\Api\Schema;
-use Grayloon\Magento\MagentoFacade;
+use Mucan\Magento\Api\Schema;
+use Mucan\Magento\MagentoFacade;
 use Illuminate\Support\Facades\Http;
 
 class SchemaTest extends TestCase
