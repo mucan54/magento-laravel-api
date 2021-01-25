@@ -31,4 +31,17 @@ class Products extends AbstractApi
     {
         return $this->get('/products/'.$sku);
     }
+
+    /**
+     * Get info about product by product SKU.
+     *
+     * @param string $sku
+     *
+     * @return array
+     */
+    public function update($sku,$info=[])
+    {
+
+        return $this->put('/products/'.$sku,$info);
+    }
 }

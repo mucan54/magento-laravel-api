@@ -55,7 +55,7 @@ abstract class AbstractApi
      *
      * @return \Illuminate\Http\Client\Response
      */
-    protected function get($path, $parameters = [])
+    public function get($path, $parameters = [])
     {
         return $this->checkExceptions(Http::withToken($this->magento->token)
             ->get($this->apiRequest.$path, $parameters), $this->apiRequest.$path, $parameters);
@@ -69,7 +69,7 @@ abstract class AbstractApi
      *
      * @return \Illuminate\Http\Client\Response
      */
-    protected function post($path, $parameters = [])
+    public function post($path, $parameters = [])
     {
         return $this->checkExceptions(Http::withToken($this->magento->token)
             ->post($this->apiRequest.$path, $parameters), $this->apiRequest.$path, $parameters);
@@ -83,7 +83,7 @@ abstract class AbstractApi
      *
      * @return \Illuminate\Http\Client\Response|void
      */
-    protected function put($path, $parameters = [])
+    public function put($path, $parameters = [])
     {
         return $this->checkExceptions(Http::withToken($this->magento->token)
             ->put($this->apiRequest.$path, $parameters), $this->apiRequest.$path, $parameters);
@@ -97,7 +97,7 @@ abstract class AbstractApi
      *
      * @return \Illuminate\Http\Client\Response|void
      */
-    protected function delete($path, $parameters = [])
+    public function delete($path, $parameters = [])
     {
         return $this->checkExceptions(Http::withToken($this->magento->token)
             ->delete($this->apiRequest.$path, $parameters), $this->apiRequest.$path, $parameters);
