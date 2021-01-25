@@ -44,4 +44,16 @@ class Products extends AbstractApi
 
         return $this->put('/products/'.$sku,$info);
     }
+
+    /**
+     * Get info about product by product SKU.
+     *
+     * @param string $sku
+     *
+     * @return array
+     */
+    public function del($sku)
+    {
+        return $this->delete('/products/'.$sku);
+    }
 }
